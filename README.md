@@ -41,6 +41,20 @@ python organizer.py
 
 This project demonstrates Python file handling, directory management, automation, loops, dictionaries, conditional statements and exception-safe file organization.
 
+## Download Windows Application
+
+You can download and use the Windows version of this File Organizer.
+
+**[Download File Organizer for Windows](FileOrganizer-Windows.zip)**
+
+### How to use
+1. Download the ZIP file.
+2. Extract the ZIP file.
+3. Open `FileOrganizer.exe`.
+4. Enter the folder path you want to organize.
+5. Let the application organize your files automatically.
+
+**Note:** This application is currently a command-line Windows tool.
 ## Author
 
 Python Automation Project
