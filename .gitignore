@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+Test-Files/
+organizer_log.txt
