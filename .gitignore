@@ -1,6 +1,33 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
 venv/
+web-app/backend/.venv/
+
+# Test files and logs
 Test-Files/
 organizer_log.txt
+
+# Node.js
+node_modules/
+web-app/frontend/node_modules/
+
+# Build files
+build/
+dist/
+web-app/frontend/dist/
+
+# Uploaded files
+web-app/backend/uploads/
+
+# Environment files
+.env
+.env.*
+!.env.example
+# Temporary and backup files
+web-app/backend/.venv/
+web-app/backend/__pycache__/
+web-app/frontend/node_modules/
+web-app/frontend/src/App-backup.tsx
+web-app/frontend/src/App-backup.css
