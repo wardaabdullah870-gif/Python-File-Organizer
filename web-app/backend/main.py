@@ -15,10 +15,11 @@ app = FastAPI(
 
 # Allow the React frontend to communicate with FastAPI
 app.add_middleware(
-    CORSMiddleware,
+CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://python-file-organizer-chi.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
